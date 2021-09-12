@@ -1,0 +1,12 @@
+---
+- name: "centos"
+  when: ansible_distribution == "CentOS"
+  import_tasks: centos.yml
+
+- name: "amazon"
+  when: ansible_distribution == "Amazon"
+  import_tasks: amazon.yml
+
+- name: "ubuntu"
+  when: ansible_distribution == "Ubuntu"
+  import_tasks: ubuntu.yml
