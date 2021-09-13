@@ -6,7 +6,7 @@ There were several scenarios where needs for LAMP Stack to be installed on diffe
 
 The Ansible role is an independent component that allows the reuse of common configuration steps. Also, Roles are defined using YAML files with a predefined directory structure. A role directory structure contains directories: defaults, vars, tasks, files, templates, meta, handlers.
 
-The LAMP stack - that needs to create a server environment for dynamic websites, to install some software when we are choosing PHP as a programming language. Here Operating system, Linux, is the base layer. Then Apache, the web daemon that sits on top of the OS. Then the database stores all the information served by your web daemon, and PHP (or any P* scripting language) is used to drive and display all the data, and allow for user interaction.
+The LAMP stack - that needs to create a server environment for dynamic websites, to install some software when we are choosing PHP as a programming language. Here Operating system, Linux, is the base layer. Then Apache, the web daemon that sits on top of the OS. Then the database stores all the information served by the web daemon, and PHP (or any P* scripting language) is used to drive and display all the data, and allow for user interaction.
 
 
 ## Here Supported Operating Systems
