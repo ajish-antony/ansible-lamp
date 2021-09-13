@@ -107,13 +107,13 @@ ansible -i inventory.txt all -m ping
 - For testing any syntax error, have a check as mentioned below
 
 ```sh
-ansible-playbook -i inventory.txt main.yml --syntax-check
+ansible-playbook -i inventory.txt lamp.yml --syntax-check
 ```
 
 If everything is fine, further move forwards with the execution
 
 ```sh
-ansible-playbook -i inventory.txt main.yml
+ansible-playbook -i inventory.txt lamp.yml
 ```
 
 ## Conclusion
