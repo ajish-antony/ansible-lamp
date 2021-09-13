@@ -3,4 +3,4 @@
 - hosts: all
   become: true
   roles:
-    - role: "/etc/ansible/roles/lamp"
+    - role: "Mention-Your-Current-Working-Directory"
