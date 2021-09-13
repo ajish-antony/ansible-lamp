@@ -1,6 +1,6 @@
 
 # Ansible Role Provisioning LAMP Stack For Different OS
-## ( Amazon Linux 2  Ubuntu 20.04  CentOS 8 )
+## ( Amazon Linux 2, Ubuntu 20.04, CentOS 8 )
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
