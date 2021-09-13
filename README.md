@@ -1,6 +1,8 @@
 
 # Ansible Role Provisioning LAMP Stack For Different OS
-## ( Amazon Linux 2, Ubuntu 20.04, CentOS 8 )
+## ( Amazon Linux 2  Ubuntu 20.04  CentOS 8 )
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 There were several scenarios where needs for LAMP Stack to be installed on different OS and we have to proceed with each time manually. Commonly these requirements come in Operating Systems as such Amazon Linux, CentOS, Ubuntu. To automate the installation process of these, here I have made use of Ansible and the automation process implemented via the Ansible role.
 
