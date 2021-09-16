@@ -3,4 +3,4 @@
 - hosts: all
   become: true
   roles:
-    - role: "Mention-Your-Current-Working-Directory"
+    - "Mention-Your-Current-Working-Directory"
