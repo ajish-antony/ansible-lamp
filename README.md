@@ -1,6 +1,6 @@
 
 # Ansible Role Provisioning LAMP Stack For Multiple OS
-## ( Amazon Linux 2, Ubuntu 20.04, CentOS 8 )
+### (Implemented via Ansible Galaxy for Amazon Linux 2, Ubuntu 20.04, CentOS 8 )
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
@@ -82,11 +82,12 @@ alt_txt
  
 ## User Instructions
 
-- Clone the Repo
+- Install the role from Ansible Galaxy
 
 ```sh
-git clone https://github.com/ajish-antony/ansible-lamp.git
+ansible-galaxy install ajish_antony.ansible_lamp
 ```
+
 - Add the host in the inventory file and also key for accessing the servers under the working directory. 
 
 - For testing the connectivity between the servers, have a check with the below command
@@ -98,12 +99,10 @@ ansible -i inventory.txt all -m ping
 - Variables have been declared for the Apache and the Database in the vars/main.yml file. According to the requirements update the same. Also update the current working directory in the file lamp.yml
 
 ```sh
----
-
 - hosts: all
   become: true
   roles:
-    - role: "Mention-Your-Current-Working-Directory"
+    - Mention-Your-Current-Working-Directory
 ```
 
 - For testing any syntax error, have a check as mentioned below
@@ -112,11 +111,12 @@ ansible -i inventory.txt all -m ping
 ansible-playbook -i inventory.txt lamp.yml --syntax-check
 ```
 
-If everything is fine, further move forwards with the execution
+- If everything is fine, further move forwards with the execution
 
 ```sh
 ansible-playbook -i inventory.txt lamp.yml
 ```
+
 
 ## Conclusion
 
